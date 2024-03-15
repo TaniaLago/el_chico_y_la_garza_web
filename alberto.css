@@ -1,0 +1,39 @@
+body {
+      background-color: rgb(2, 150, 219); /* Cambiar el color de fondo a azul */
+      color: black; /* Cambiar el color de texto a negro */
+      margin: 0; /* Eliminar el margen predeterminado */
+      padding: 0; /* Eliminar el relleno predeterminado */
+      position: relative; /* Establecer posición relativa para el body */
+    }
+    .container {
+      position: relative; /* Establecer posición relativa para el contenedor */
+      padding: 20px; /* Agregar un relleno al contenedor */
+    }
+    .text {
+      width: calc(50% - 20px); /* Establecer el ancho del texto */
+      float: left; /* Colocar el texto a la izquierda */
+      font-size: 20px;
+    }
+    .video {
+      float: left; /* Colocar el video a la izquierda */
+      margin-right: 65%px; /* Agregar margen a la derecha */
+      margin-top: 15%;
+    }
+    h1 {
+      color: rgb(255, 255, 255); /* Cambiar el color del título a blanco */
+      font-size: 120px;
+      white-space: nowrap; /* Evitar el desbordamiento de texto */
+    }
+    .sinopsis {
+      max-width: calc(50% - 40px); /* Limitar el ancho del texto al 50% del contenedor */
+    }
+    .images {
+      clear: both; /* Limpiar el flotado */
+      margin-top: 30%; /* Agregar margen superior entre el video y las imágenes */
+      text-align: center; /* Centrar las imágenes */
+    }
+    .images img {
+      margin: 0 10px; /* Agregar margen a cada imagen */
+      max-width: calc(50% - 20px); /* Limitar el ancho de cada imagen */
+      height: auto; /* Mantener la proporción de aspecto */
+    }
